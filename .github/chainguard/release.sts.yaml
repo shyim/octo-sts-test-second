@@ -1,0 +1,7 @@
+issuer: https://token.actions.githubusercontent.com
+subject: repo:shopware/octo-sts-test:ref:refs/heads/main
+claim_pattern:
+  job_workflow_ref: shopware/octo-sts-test/.github/workflows/build.yml@refs/heads/main
+
+permissions:
+  actions: write
